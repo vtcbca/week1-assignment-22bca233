@@ -4,6 +4,7 @@ def primeornot(n):
     for i in range(2,n):
         if(n%2==0):
             ans=False
+            break
     if(ans==True):
         print("Number is prime!!")
     else:
